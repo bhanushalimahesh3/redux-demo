@@ -21,7 +21,8 @@ export const authenticationSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { onInputChange, onSubmit } = authenticationSlice.actions
+export const { onInputChange, onSubmit } = authenticationSlice.actions;
 
-export default authenticationSlice.reducer
+export default authenticationSlice.reducer;
+
     
